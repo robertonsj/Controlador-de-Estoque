@@ -1,7 +1,7 @@
 # Controlador-de-Vendas
 Aplicação desktop para registrar as vendas de uma empresa. 
 
-ESTRUTURA NO NETBEANS
+##ESTRUTURA NO NETBEANS
 A respectiva aplicação está estruturada basicamente em três camandas, representada principalmente pelos seguintes pacotes:
 -> telas
 -> modelos
@@ -21,7 +21,7 @@ Por exemplo, com um objeto do tipo 'Funcionario', podemos inserir, atualizar, ex
 Cada uma dessas ações representa um método da classe 'FuncionarioDadosTratados'. 
 
 
-REGRAS DE NEGÓCIO
+##REGRAS DE NEGÓCIO
 1 - Usuário seleciona os produtos que o cliente vai comprar;
 
 2 - Venda registrada
@@ -37,8 +37,7 @@ REGRAS DE NEGÓCIO
 5 - Finalizar Venda;
 
 
-
-TABELAS DO BANCO BD_VENDAS
+##TABELAS DO BANCO BD_VENDAS
 tb_clientes 
 tb_fornecedores
 tb_funcionarios
