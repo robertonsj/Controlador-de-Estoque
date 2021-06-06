@@ -1,5 +1,5 @@
 # Controlador-de-Vendas
-Aplicação desktop para registrar as vendas de uma empresa. 
+Aplicação desktop para gerenciar as vendas de uma empresa e todos os objetos que a envolvem. 
 
 ## Estrutura no Netbeans
 A respectiva aplicação está estruturada basicamente em três camandas, representada principalmente pelos seguintes pacotes:
