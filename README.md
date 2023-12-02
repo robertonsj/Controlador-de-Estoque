@@ -3,26 +3,14 @@ Aplicação desktop para gerenciar as vendas de uma empresa e todos os objetos q
 
 ## Estrutura no Netbeans
 A respectiva aplicação está estruturada basicamente em três camandas, representada principalmente pelos seguintes pacotes:
--> telas
--> modelos
--> dadostratados
-
-### Camada Tela
-É onde estarão as telas de interação usuário-aplicação, onde poderá ser feito o imput ou ouput de dados do banco de dados.
-Basicamente, é por onde o usuário irá interagir com a aplicação.
-
-### Camada Modelo
-É onde estarão as classes cujos objetos instanciados representam as entidades de grande importância para as regras de negócio, com
-seus atributos e métodos getters e setters. São eles: Cliente, Funcionário, Fornecedor, Produto, Venda, ItensVenda, e outros.
-
-### Camada DadosTratados
-É onde estarão todos os métodos que farão a comunicação com o banco de dados. Cada entidade da camada anterior terá uma classe 'DadosTratados'.
-Por exemplo, com um objeto do tipo 'Funcionario', podemos inserir, atualizar, excluir, buscar ou listar funcionários junto ao banco de dados. 
-Cada uma dessas ações representa um método da classe 'FuncionarioDadosTratados'. 
+- telas: guarda as interfaces de usuário para a entrada de dados;
+- modelos: guarda as classes: Cliente, Funcionario, Fornecedor, Produto, Venda, ItensVenda, e outros.
+- dadostratados: onde encontra-se as classes que possuem métodos para acesso ao banco de dados. 
+Por exemplo, com um objeto do tipo 'Funcionario', podemos inserir, atualizar, excluir, buscar ou listar funcionários junto ao banco de dados. Cada uma dessas ações representa um método da classe 'FuncionarioDadosTratados'. 
 
 
 ## Regras de Negócio
-- 1 Usuário seleciona os produtos que o cliente vai comprar;
+- 1 Os produtos estarão dispostos para serem selecionados;
 - 2 Venda registrada
 	- Id do cliente
 	- Data da venda;
